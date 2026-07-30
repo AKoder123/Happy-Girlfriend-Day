@@ -1,6 +1,6 @@
 # Happy Girlfriend's Day 🩷
 
-An interactive one-page site for Shivani — *Chellun Kutty*.
+An interactive one-page site by Advay (Addu) for Shivani — *Chellun Kutty*.
 
 Everything is static: plain HTML, CSS and JavaScript with no build step, no
 dependencies and no external requests (fonts and photos live in the repo), so it
@@ -50,8 +50,7 @@ python3 -m http.server 8000
 
 Spots worth editing are marked with `✏️ EDIT ME` in the source:
 
-- **The letter** — `index.html`, in the `#letter` section.
-- **Your signature** — the `.sign` line in `index.html`.
+- **The letter** — `index.html`, in the `#letter` section (signed off `.sign`).
 - **Photo captions** — the `PHOTOS` array near the top of `assets/js/main.js`.
 - **The twelve reasons** — the `REASONS` array in `assets/js/main.js`.
 
