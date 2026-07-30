@@ -14,7 +14,7 @@ runs as-is on GitHub Pages.
 | Hero | Her name, and *நான் உன்னை காதலிக்கிறேன்* — "na unna kadhalikheren" |
 | Letter | The note, next to a photo |
 | தமிழ் | A flip card that turns over to the Tamil for "I love you" |
-| Us | Nine photos, tap to open a lightbox (arrow keys and swipe work) |
+| Us | Eight photos, tap to open a lightbox (arrow keys and swipe work) |
 | Reasons | Twelve hearts to tap, with a counter |
 | Play | **Four in a Row** and **Othello** — see below |
 | How much | A slider that refuses to stop at 100% |
@@ -69,5 +69,5 @@ assets/
   js/main.js         envelope, petals, gallery, reasons, extras
   js/connect4.js     Four in a Row
   js/othello.js      Othello
-photos/              the nine photos
+photos/              the photos
 ```

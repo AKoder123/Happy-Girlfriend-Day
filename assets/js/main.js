@@ -184,7 +184,6 @@
     { src: 'photos/olive-couch.jpg',       cap: 'you, casually outshining the room' },
     { src: 'photos/golden-lift.jpg',       cap: 'lift mirror, gold light, my girl' },
     { src: 'photos/round-mirror.jpg',      cap: 'the round mirror one' },
-    { src: 'photos/soju-couch.jpg',        cap: 'soju and nonsense on the couch' },
     { src: 'photos/our-hands.jpg',         cap: 'your rings, my favourite hand' },
     { src: 'photos/monash-night.jpg',      cap: 'dressed up and completely unbothered' },
     { src: 'photos/round-mirror-two.jpg',  cap: 'one more, because I couldn\'t choose' }
