@@ -1,5 +1,5 @@
 /* =========================================================
-   othello.js — real Othello, weak opponent, and an ending
+   othello.js: real Othello, weak opponent, and an ending
    where every single piece on the board turns pink.
    ========================================================= */
 (function () {
@@ -142,7 +142,7 @@
     var r = +e.currentTarget.dataset.r, c = +e.currentTarget.dataset.c;
     var moves = legalMoves('her');
     if (!moves[r + ',' + c]) {
-      statusEl.textContent = 'Not that one — the glowing squares are yours.';
+      statusEl.textContent = 'Not that one. The glowing squares are yours.';
       return;
     }
     busy = true;
@@ -195,7 +195,7 @@
           busy = false;
           markLegal(mine);
         } else if (Object.keys(legalMoves('him')).length) {
-          statusEl.textContent = 'No moves for you — I will go again.';
+          statusEl.textContent = 'No moves for you, so I will go again.';
           setTimeout(nextTurn.bind(null, 'him'), reduce ? 120 : 800);
         } else {
           finale('The board is done.');
@@ -288,7 +288,7 @@
   resetBtn.addEventListener('click', reset);
   skipBtn.addEventListener('click', function () {
     if (over) { reset(); setTimeout(function () { finale('Again, then.'); }, 400); }
-    else finale('Fine — I could not wait either.');
+    else finale('Fine, I could not wait either.');
   });
 
   reset();
