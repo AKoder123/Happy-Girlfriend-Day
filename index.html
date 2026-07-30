@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Happy Girlfriend's Day, Chellun Kutty 🩷</title>
+<meta name="description" content="A little something built for Shivani — Happy Girlfriend's Day.">
+<meta name="theme-color" content="#ffd0e4">
+<meta property="og:title" content="Happy Girlfriend's Day, Chellun Kutty 🩷">
+<meta property="og:description" content="A little something built for Shivani.">
+<meta property="og:image" content="photos/mint-and-yellow.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A9%B7%3C/text%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/quicksand-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/cormorant-garamond-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/noto-sans-tamil-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<noscript><style>#gate{display:none!important}.reveal{opacity:1!important;transform:none!important}</style></noscript>
+</head>
+<body>
+
+<!-- ============ THE ENVELOPE (opening gate) ============ -->
+<div id="gate" aria-label="Open your letter">
+  <div class="gate-inner">
+    <p class="gate-kicker">For the prettiest girl in Melbourne</p>
+    <button class="envelope" id="openEnvelope" aria-label="Open the envelope">
+      <span class="env-back"></span>
+      <span class="env-letter">
+        <span class="env-letter-line"></span>
+        <span class="env-letter-line short"></span>
+        <span class="env-letter-line"></span>
+        <span class="env-heart">🩷</span>
+      </span>
+      <span class="env-front"></span>
+      <span class="env-flap"></span>
+      <span class="env-seal">S</span>
+    </button>
+    <p class="gate-hint">tap to open</p>
+  </div>
+</div>
+
+<canvas id="petals" aria-hidden="true"></canvas>
+
+<!-- ============ NAV ============ -->
+<nav id="nav" aria-label="Sections">
+  <a href="#hero">start</a>
+  <a href="#letter">letter</a>
+  <a href="#tamil">தமிழ்</a>
+  <a href="#gallery">us</a>
+  <a href="#reasons">reasons</a>
+  <a href="#play">play</a>
+  <a href="#forever">forever</a>
+</nav>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section id="hero">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <p class="hero-kicker reveal">happy girlfriend's day</p>
+    <h1 class="hero-name reveal">Chellun<br><span>Kutty</span></h1>
+    <p class="hero-sub reveal">Shivani — the best thing that has ever happened to a Tuesday, a Sunday, and every day in between.</p>
+    <p class="hero-tamil reveal" lang="ta">நான் உன்னை காதலிக்கிறேன்</p>
+    <p class="hero-translit reveal">na unna kadhalikheren</p>
+    <figure class="hero-photo reveal">
+      <img src="photos/sunlight.jpg" alt="The two of us in the morning light" loading="eager" decoding="async">
+      <figcaption>us, and one very good morning</figcaption>
+      <span class="tape tape-l" aria-hidden="true"></span>
+      <span class="tape tape-r" aria-hidden="true"></span>
+    </figure>
+    <a class="scroll-cue" href="#letter" aria-label="Scroll down">
+      <span>there's more</span>
+      <span class="cue-arrow" aria-hidden="true">↓</span>
+    </a>
+  </div>
+</section>
+
+<!-- ============ LETTER ============ -->
+<section id="letter" class="band">
+  <div class="wrap letter-grid">
+    <article class="note reveal">
+      <h2 class="note-h">A letter, because I'm bad at speeches</h2>
+      <!-- ✏️ EDIT ME: this is your letter. Say it however you say it. -->
+      <p>Chellun Kutty,</p>
+      <p>Happy Girlfriend's Day. I know it isn't a real holiday with cards in the shops — honestly, good. This way I get to make my own one up, and make it entirely about you.</p>
+      <p>I built this instead of buying something, because anything I could have bought would have been about the <em>day</em>, and I wanted it to be about <em>you</em>. Every photo in here, every silly game, every hidden note — it's all just a very long way of saying one very short thing.</p>
+      <p>And there's a language for that short thing, and it happens to be yours: <span lang="ta" class="ta">நான் உன்னை காதலிக்கிறேன்</span>. <em>Na unna kadhalikheren.</em> I've probably said it wrong a hundred times by now. I intend to keep saying it wrong for as long as you'll let me.</p>
+      <p>Keep scrolling. Some of it you have to earn. 🩷</p>
+      <p class="sign">— always yours<!-- ✏️ EDIT ME: put your name here if you want --></p>
+    </article>
+    <figure class="polaroid tilt-r reveal">
+      <img src="photos/our-hands.jpg" alt="Our hands together, rings and all" loading="lazy" decoding="async">
+      <figcaption>your hand, my favourite place</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ TAMIL ============ -->
+<section id="tamil" class="band band-deep">
+  <div class="wrap center">
+    <p class="eyebrow reveal">the only sentence I ever really needed to learn</p>
+    <button class="tamil-card reveal" id="tamilCard" aria-live="polite">
+      <span class="tc-face tc-front">
+        <span class="tc-heart">🩷</span>
+        <span class="tc-hint">tap me</span>
+      </span>
+      <span class="tc-face tc-back">
+        <span class="tc-tamil" lang="ta">நான் உன்னை காதலிக்கிறேன்</span>
+        <span class="tc-translit">na unna kadhalikheren</span>
+        <span class="tc-en">I love you</span>
+      </span>
+    </button>
+    <p class="tamil-foot reveal">Your language says it better than mine does. So I'll borrow yours, forever, and you can keep correcting my pronunciation.</p>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section id="gallery" class="band">
+  <div class="wrap">
+    <h2 class="sec-h reveal">Evidence <span>that I'm the lucky one</span></h2>
+    <p class="sec-p reveal">Tap any photo to make it bigger. Some of these are objectively unfair.</p>
+    <div class="grid" id="galleryGrid"><!-- built by script --></div>
+  </div>
+</section>
+
+<!-- ============ REASONS ============ -->
+<section id="reasons" class="band band-soft">
+  <div class="wrap">
+    <h2 class="sec-h reveal">Reasons, <span>in no order</span></h2>
+    <p class="sec-p reveal">Twelve hearts. Tap them all. <span class="counter" id="reasonCount">0 / 12 opened</span></p>
+    <div class="reason-grid" id="reasonGrid"><!-- built by script --></div>
+    <p class="all-open" id="allOpen">Every single one of them, and about four hundred more I didn't have room for. 🩷</p>
+  </div>
+</section>
+
+<!-- ============ GAMES ============ -->
+<section id="play" class="band">
+  <div class="wrap">
+    <h2 class="sec-h reveal">Play with me <span>(I'll lose on purpose)</span></h2>
+    <p class="sec-p reveal">Two games. Both rigged. Both worth finishing.</p>
+
+    <!-- ---- CONNECT FOUR ---- -->
+    <div class="game-card reveal">
+      <header class="game-head">
+        <h3>Four in a Row</h3>
+        <p id="c4Status">You're pink. I'm lilac. I may have set the board up in your favour — I always do.</p>
+      </header>
+      <div class="c4-wrap">
+        <div class="c4-arrows" id="c4Arrows" aria-hidden="true"></div>
+        <div class="c4-board" id="c4Board" role="grid" aria-label="Four in a row board"></div>
+      </div>
+      <div class="game-foot">
+        <button class="btn ghost" id="c4Reset">start over</button>
+      </div>
+      <div class="game-msg" id="c4Msg" role="status" aria-live="polite"></div>
+    </div>
+
+    <!-- ---- OTHELLO ---- -->
+    <div class="game-card reveal">
+      <header class="game-head">
+        <h3>Othello</h3>
+        <p id="othStatus">You're pink, I'm cream. Every legal move is marked. Fill the board and watch what happens.</p>
+      </header>
+      <div class="oth-score">
+        <span class="chip chip-her"><i></i> you <b id="othHer">2</b></span>
+        <span class="chip chip-him"><i></i> me <b id="othHim">2</b></span>
+      </div>
+      <div class="oth-wrap">
+        <div class="oth-board" id="othBoard" role="grid" aria-label="Othello board"></div>
+      </div>
+      <div class="game-foot">
+        <button class="btn ghost" id="othReset">new game</button>
+        <button class="btn" id="othSkip">skip to the part where I tell you 🩷</button>
+      </div>
+      <div class="game-msg" id="othMsg" role="status" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ METER ============ -->
+<section id="meter" class="band band-soft">
+  <div class="wrap center">
+    <h2 class="sec-h reveal">How much, exactly?</h2>
+    <p class="sec-p reveal">Go on. Drag it all the way. I'll wait.</p>
+    <div class="meter-box reveal">
+      <input type="range" id="loveRange" min="0" max="100" value="12" aria-label="How much I love you">
+      <p class="meter-read" id="meterRead">12% — rookie numbers</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOREVER ============ -->
+<section id="forever" class="band band-deep">
+  <div class="wrap center">
+    <h2 class="sec-h reveal">So, then.</h2>
+    <p class="sec-p reveal">Happy Girlfriend's Day, Chellun Kutty. Tap the heart as many times as you like — it keeps count, which is more than I can do.</p>
+    <button class="big-heart" id="bigHeart" aria-label="Tap the heart">🩷</button>
+    <p class="heart-count" id="heartCount">tap it</p>
+    <p class="closing reveal">Same time next year. And the year after. And the one after that.<br><span lang="ta" class="ta">நான் உன்னை காதலிக்கிறேன்.</span></p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>made by hand, badly, with love · for Shivani 🩷</p>
+</footer>
+
+<!-- ============ LIGHTBOX ============ -->
+<div id="lightbox" hidden>
+  <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+  <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous">‹</button>
+  <button class="lb-nav lb-next" id="lbNext" aria-label="Next">›</button>
+  <figure class="lb-fig">
+    <img id="lbImg" alt="">
+    <figcaption id="lbCap"></figcaption>
+  </figure>
+</div>
+
+<script>document.documentElement.classList.remove('no-js');</script>
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/connect4.js" defer></script>
+<script src="assets/js/othello.js" defer></script>
+</body>
+</html>
