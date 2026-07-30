@@ -261,13 +261,13 @@
      --------------------------------------------------------- */
   /* ✏️ EDIT ME: swap these for your own. Twelve keeps the grid neat. */
   var REASONS = [
-    'You laugh at your own jokes before you finish them, and it is the best sound I know.',
+    'Because your laugh makes me feel like I just won my first basketball tournament all over again.',
     'You make an ordinary Wednesday feel like an occasion.',
     'Your hand fits in mine like somebody measured it.',
-    'You remember the small things I mention once and never again.',
+    'You pay attention to all the small things, and you always check up on me.',
     'The way you get excited about tiny things. Food. Dogs. A good sale.',
     'You are the quiet in the middle of my very loud head.',
-    'The way you look at me when you think I am not looking.',
+    'The way you look at me when you say you love me.',
     'You are kind to people who can do absolutely nothing for you.',
     'You make me want to be better without ever once asking me to.',
     'Your hugs solve roughly eighty percent of my problems.',
