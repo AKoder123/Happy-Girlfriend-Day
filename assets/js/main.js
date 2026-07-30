@@ -1,5 +1,5 @@
 /* =========================================================
-   main.js — gate, petals, gallery, reasons, small joys
+   main.js: gate, petals, gallery, reasons, small joys
    ========================================================= */
 (function () {
   'use strict';
@@ -284,7 +284,7 @@
       var card = document.createElement('button');
       card.className = 'rcard';
       card.type = 'button';
-      card.setAttribute('aria-label', 'Reason ' + (i + 1) + ' — tap to open');
+      card.setAttribute('aria-label', 'Reason ' + (i + 1) + ', tap to open');
       card.innerHTML =
         '<span class="rface rfront">🩷</span>' +
         '<span class="rface rback">' + text + '</span>';
@@ -340,14 +340,14 @@
       var v = +range.value;
       range.style.setProperty('--fill', v + '%');
       if (v >= 100) {
-        read.textContent = '∞ — the slider broke. It was never going to be enough.';
+        read.textContent = '∞. The slider broke. It was never going to be enough.';
         read.classList.add('maxed');
         if (!range.dataset.done) { range.dataset.done = '1'; burstFrom(range, 26); }
       } else {
         read.classList.remove('maxed');
         var label = LINES[0][1];
         for (var i = 0; i < LINES.length; i++) if (v >= LINES[i][0]) label = LINES[i][1];
-        read.textContent = v + '% — ' + label;
+        read.textContent = v + '%, ' + label;
       }
     }
     range.addEventListener('input', paint);

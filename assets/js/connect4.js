@@ -1,5 +1,5 @@
 /* =========================================================
-   connect4.js — "Four in a Row", rigged with affection.
+   connect4.js: "Four in a Row", rigged with affection.
    The board starts one move away from a win for her, and the
    opponent politely refuses to ever block her.
    ========================================================= */
@@ -16,7 +16,7 @@
 
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  /* the board she walks in on — she already has a winning move */
+  /* the board she walks in on, already one move from a win for her */
   function startPosition() {
     var b = [];
     for (var r = 0; r < ROWS; r++) { b.push([]); for (var c = 0; c < COLS; c++) b[r].push(null); }
@@ -270,7 +270,7 @@
     msgEl.className = 'game-msg';
     msgEl.textContent = '';
     build();
-    statusEl.textContent = 'You are pink. I am lilac. I may have set the board up in your favour — I always do.';
+    statusEl.textContent = 'You are pink. I am lilac. I may have set the board up in your favour. I always do.';
     setTimeout(hint, reduce ? 60 : 700);
   }
 
